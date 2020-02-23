@@ -20,6 +20,12 @@ import {
   DoCheckComponent
 } from './do-check.component';
 
+import {
+  AfterViewParentComponent,
+  AfterViewComponent,
+  ChildViewComponent
+} from './after-view.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +36,10 @@ import {
     OnChangesParentComponent,
     OnChangesComponent,
     DoCheckParentComponent,
-    DoCheckComponent
+    DoCheckComponent,
+    AfterViewParentComponent,
+    AfterViewComponent,
+    ChildViewComponent
   ],
   imports: [
     BrowserModule,
