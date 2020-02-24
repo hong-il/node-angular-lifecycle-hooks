@@ -26,6 +26,12 @@ import {
   ChildViewComponent
 } from './after-view.component';
 
+import {
+  AfterContentParentComponent,
+  AfterContentComponent,
+  ChildComponent
+} from './after-content.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +45,10 @@ import {
     DoCheckComponent,
     AfterViewParentComponent,
     AfterViewComponent,
-    ChildViewComponent
+    ChildViewComponent,
+    AfterContentParentComponent,
+    AfterContentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
