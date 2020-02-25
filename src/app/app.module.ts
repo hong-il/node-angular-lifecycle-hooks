@@ -32,6 +32,11 @@ import {
   ChildComponent
 } from './after-content.component';
 
+import {
+  CounterParentComponent,
+  MyCounterComponent
+} from './counter.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,7 +53,9 @@ import {
     ChildViewComponent,
     AfterContentParentComponent,
     AfterContentComponent,
-    ChildComponent
+    ChildComponent,
+    CounterParentComponent,
+    MyCounterComponent
   ],
   imports: [
     BrowserModule,
